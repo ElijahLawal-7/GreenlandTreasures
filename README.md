@@ -1,2 +1,2 @@
-# Lucy-Dominion
-Lucy-Dominion Foundation Website
+# Greenland Abundant Treasures Ltd
+Greenland Abundant Treasures Website
