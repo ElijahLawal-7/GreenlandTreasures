@@ -205,37 +205,36 @@ Individual would have access to fund to meet up with their goals through our tar
                     Earn up to 25% interest on the investment for 12 month duration. Join others to enjoy an interest rate 6 times higher than the bank offers. <br>
                     i.	Savings plan registration commences in October and closes January 5th every year. Savings deposit commences January (both monthly and weekly savings). <br>
                    ii.	Minimum months of savings is 11 months to earn 10% interest in your total savings.
-               <div>  
-                    <style>
-                     /* Button Styles */
-                     .rounded-button {
-                         display: inline-block;
-                         padding: 10px 20px;
-                         background-color: lightgreen;
-                         border: 2px solid lightgreen;
-                         border-radius: 10px;
-                         text-align: center;
-                         text-decoration: none;
-                         color: white;
-                         font-weight: bold;
-                         cursor: pointer;
-                         transition: background-color 0.3s ease;
-                     }
-            
-                     /* Button Hover Effect */
-                     .rounded-button:hover {
-                        background-color: darkgreen;
-                     }
-                    </style>
-            
-                    <button class="rounded-button" onclick="redirectToIndex()">Invest With Us</button>
-            
+                <div>
+                    <button onclick="goToInvest()" style="
+                      display: inline-block;
+                      padding: 10px 20px;
+                      border-radius: 10px; /* Rounded corners */
+                      text-align: center;
+                      text-decoration: none;
+                      color: white;
+                      font-weight: bold;
+                      cursor: pointer;
+                      transition: background-color 0.3s ease, border-color 0.3s ease; /* Transition for both background and border */
+                    ">Invest With Us</button>
+                  
                     <script>
-                       function redirectToIndex() {
-                         window.location.href = "Investment.html";
-                    }
-                   </script>
-
+                      function goToInvest() {
+                        window.location.href = "investment.html";
+                      }
+                    </script>
+                  
+                    <style>
+                      button {
+                        background-color: lightgreen; /* Light green background for the entire button */
+                        border: 2px solid lightgreen; /* Light green border for the entire button */
+                      }
+                  
+                      button:hover {
+                        background-color: darkgreen; /* Dark green on hover, applied to both background and border */
+                        border-color: darkgreen; /* Dark green border on hover */
+                      }
+                    </style>
                 </div>
                     </p> <br>
                 <p><h6>★ Savings</h6>
@@ -248,36 +247,41 @@ Individual would have access to fund to meet up with their goals through our tar
                     i.	Investment deposit commences in October and closes December 30th every year. <br>
                     ii.	Minimum investment amount is: N10,000
                     <div>  
-                        <style>
-                         /* Button Styles */
-                         .rounded-button {
-                             display: inline-block;
-                             padding: 10px 20px;
-                             background-color: lightgreen;
-                             border: 2px solid lightgreen;
-                             border-radius: 10px;
-                             text-align: center;
-                             text-decoration: none;
-                             color: white;
-                             font-weight: bold;
-                             cursor: pointer;
-                             transition: background-color 0.3s ease;
-                         }
-                
-                         /* Button Hover Effect */
-                         .rounded-button:hover {
-                            background-color: darkgreen;
-                         }
-                        </style>
-                
-                        <button class="rounded-button" onclick="redirectToIndex()">Save With Us</button>
-                
+                        
+                       
+                     <div>
+                        <button onclick="goToSavings()" style="
+                          display: inline-block;
+                          padding: 10px 20px;
+                          border-radius: 10px; /* Rounded corners */
+                          text-align: center;
+                          text-decoration: none;
+                          color: white;
+                          font-weight: bold;
+                          cursor: pointer;
+                          transition: background-color 0.3s ease, border-color 0.3s ease; /* Transition for both background and border */
+                        ">Save With Us</button>
+                      
                         <script>
-                           function redirectToIndex() {
-                             window.location.href = "saving.html";
-                        }
-                       </script>
-    
+                          function goToSavings() {
+                            window.location.href = "savings.html";
+                          }
+                        </script>
+                      
+                        <style>
+                          button {
+                            background-color: lightgreen; /* Light green background for the entire button */
+                            border: 2px solid lightgreen; /* Light green border for the entire button */
+                          }
+                      
+                          button:hover {
+                            background-color: darkgreen; /* Dark green on hover, applied to both background and border */
+                            border-color: darkgreen; /* Dark green border on hover */
+                          }
+                        </style>
+                      </div>
+                      
+                            
                     </div>
                </p> <br>
                 <p><h6>★ Loans</h6>
@@ -286,37 +290,36 @@ Individual would have access to fund to meet up with their goals through our tar
                     </div>
                     Access flexible loan up to N1,000,000 to meet your financial needs. Get fund now to expand your business and support your farm. <br>
                     Our loan service offers accessible credit for small-scale farmers and entrepreneurs to enhance their businesses. Apply now!                       
-                    <div>  
-                        <style>
-                         /* Button Styles */
-                         .rounded-button {
-                             display: inline-block;
-                             padding: 10px 20px;
-                             background-color: lightgreen;
-                             border: 2px solid lightgreen;
-                             border-radius: 10px;
-                             text-align: center;
-                             text-decoration: none;
-                             color: white;
-                             font-weight: bold;
-                             cursor: pointer;
-                             transition: background-color 0.3s ease;
-                         }
-                
-                         /* Button Hover Effect */
-                         .rounded-button:hover {
-                            background-color: darkgreen;
-                         }
-                        </style>
-                
-                        <button class="rounded-button" onclick="redirectToIndex()">Apply For Loan</button>
-                
+                    <div>
+                        <button onclick="goToLoans()" style="
+                          display: inline-block;
+                          padding: 10px 20px;
+                          border-radius: 10px; /* Rounded corners */
+                          text-align: center;
+                          text-decoration: none;
+                          color: white;
+                          font-weight: bold;
+                          cursor: pointer;
+                          transition: background-color 0.3s ease, border-color 0.3s ease; /* Transition for both background and border */
+                        ">Apply For Loan</button>
+                      
                         <script>
-                           function redirectToIndex() {
-                             window.location.href = "loans.html";
-                        }
-                       </script>
-    
+                          function goToLoans() {
+                            window.location.href = "loans.html";
+                          }
+                        </script>
+                      
+                        <style>
+                          button {
+                            background-color: lightgreen; /* Light green background for the entire button */
+                            border: 2px solid lightgreen; /* Light green border for the entire button */
+                          }
+                      
+                          button:hover {
+                            background-color: darkgreen; /* Dark green on hover, applied to both background and border */
+                            border-color: darkgreen; /* Dark green border on hover */
+                          }
+                        </style>
                     </div>
                                 </p> <br>
                 <p><h6>★ Agro Product Sale</h6>
@@ -324,38 +327,37 @@ Individual would have access to fund to meet up with their goals through our tar
                         <img src="assets/Images1/slide5.jpeg" alt="" title="">
                     </div>
                     Buy our products at affordable price. We have a range of products in our store houses you can purchase (order) from the comfort of your house. We deliver safely and promptly across states in Nigeria 
-                    <div>  
-                        <style>
-                         /* Button Styles */
-                         .rounded-button {
-                             display: inline-block;
-                             padding: 10px 20px;
-                             background-color: lightgreen;
-                             border: 2px solid lightgreen;
-                             border-radius: 10px;
-                             text-align: center;
-                             text-decoration: none;
-                             color: white;
-                             font-weight: bold;
-                             cursor: pointer;
-                             transition: background-color 0.3s ease;
-                         }
-                
-                         /* Button Hover Effect */
-                         .rounded-button:hover {
-                            background-color: darkgreen;
-                         }
-                        </style>
-                
-                        <button class="rounded-button" onclick="redirectToIndex()">Purchase Our Agro-products</button>
-                
+                     <div>
+                        <button onclick="goToProducts()" style="
+                          display: inline-block;
+                          padding: 10px 20px;
+                          border-radius: 10px; /* Rounded corners */
+                          text-align: center;
+                          text-decoration: none;
+                          color: white;
+                          font-weight: bold;
+                          cursor: pointer;
+                          transition: background-color 0.3s ease, border-color 0.3s ease; /* Transition for both background and border */
+                        ">Purchase Our Agro-products</button>
+                      
                         <script>
-                           function redirectToIndex() {
-                             window.location.href = "agroproducts.html";
-                        }
-                       </script>
-    
-                    </div>
+                          function goToProducts() {
+                            window.location.href = "agroproducts.html";
+                          }
+                        </script>
+                      
+                        <style>
+                          button {
+                            background-color: lightgreen; /* Light green background for the entire button */
+                            border: 2px solid lightgreen; /* Light green border for the entire button */
+                          }
+                      
+                          button:hover {
+                            background-color: darkgreen; /* Dark green on hover, applied to both background and border */
+                            border-color: darkgreen; /* Dark green border on hover */
+                          }
+                        </style>
+                      </div>
                                 </p> <br>
                 <p><h6>★ Farmers and Customers Connect</h6>
                     <div class="mbr-figure" style="width: 50%; height: 30%;">
@@ -363,37 +365,36 @@ Individual would have access to fund to meet up with their goals through our tar
                     </div>
                     We help farAmers market their agricultural products, by connecting them to potential customers through our available technology recourses.
                     
-                    <div>  
-                        <style>
-                         /* Button Styles */
-                         .rounded-button {
-                             display: inline-block;
-                             padding: 10px 20px;
-                             background-color: lightgreen;
-                             border: 2px solid lightgreen;
-                             border-radius: 10px;
-                             text-align: center;
-                             text-decoration: none;
-                             color: white;
-                             font-weight: bold;
-                             cursor: pointer;
-                             transition: background-color 0.3s ease;
-                         }
-                
-                         /* Button Hover Effect */
-                         .rounded-button:hover {
-                            background-color: darkgreen;
-                         }
-                        </style>
-                
-                        <button class="rounded-button" onclick="redirectToIndex()">Register With Us</button>
-                
+                    <div>
+                        <button onclick="goToFarmers()" style="
+                          display: inline-block;
+                          padding: 10px 20px;
+                          border-radius: 10px; /* Rounded corners */
+                          text-align: center;
+                          text-decoration: none;
+                          color: white;
+                          font-weight: bold;
+                          cursor: pointer;
+                          transition: background-color 0.3s ease, border-color 0.3s ease; /* Transition for both background and border */
+                        ">Register With Us</button>
+                      
                         <script>
-                           function redirectToIndex() {
-                             window.location.href = "farmers-growers.html";
-                        }
-                       </script>
-    
+                          function goToFarmers() {
+                            window.location.href = "farmers-growers.html";
+                          }
+                        </script>
+                      
+                        <style>
+                          button {
+                            background-color: lightgreen; /* Light green background for the entire button */
+                            border: 2px solid lightgreen; /* Light green border for the entire button */
+                          }
+                      
+                          button:hover {
+                            background-color: darkgreen; /* Dark green on hover, applied to both background and border */
+                            border-color: darkgreen; /* Dark green border on hover */
+                          }
+                        </style>
                     </div>
                                 </p> <br>
                 <p><h6>★ Sustainable agricultural education program</h6>
@@ -401,37 +402,36 @@ Individual would have access to fund to meet up with their goals through our tar
                         <img src="assets/Images1/slidenew.webp" alt="" title="">
                     </div>
                     Our sustainable agriculture education programs are designed to equip small-scale farmers and entrepreneurs with the knowledge and skills they need to boost crop yields and enhance food security.
-                    <div>  
-                        <style>
-                         /* Button Styles */
-                         .rounded-button {
-                             display: inline-block;
-                             padding: 10px 20px;
-                             background-color: lightgreen;
-                             border: 2px solid lightgreen;
-                             border-radius: 10px;
-                             text-align: center;
-                             text-decoration: none;
-                             color: white;
-                             font-weight: bold;
-                             cursor: pointer;
-                             transition: background-color 0.3s ease;
-                         }
-                
-                         /* Button Hover Effect */
-                         .rounded-button:hover {
-                            background-color: darkgreen;
-                         }
-                        </style>
-                
-                        <button class="rounded-button" onclick="redirectToIndex()">Apply for Training</button>
-                
+                    <div>
+                        <button onclick="goToTraining()" style="
+                          display: inline-block;
+                          padding: 10px 20px;
+                          border-radius: 10px; /* Rounded corners */
+                          text-align: center;
+                          text-decoration: none;
+                          color: white;
+                          font-weight: bold;
+                          cursor: pointer;
+                          transition: background-color 0.3s ease, border-color 0.3s ease; /* Transition for both background and border */
+                        ">Apply For Training</button>
+                      
                         <script>
-                           function redirectToIndex() {
-                             window.location.href = "trainingcert.html";
-                        }
-                       </script>
-    
+                          function goToTraining() {
+                            window.location.href = "trainingcert.html";
+                          }
+                        </script>
+                      
+                        <style>
+                          button {
+                            background-color: lightgreen; /* Light green background for the entire button */
+                            border: 2px solid lightgreen; /* Light green border for the entire button */
+                          }
+                      
+                          button:hover {
+                            background-color: darkgreen; /* Dark green on hover, applied to both background and border */
+                            border-color: darkgreen; /* Dark green border on hover */
+                          }
+                        </style>
                     </div>
                                 </p> <br>
 <p><h4>• OUR COMMUNITY</h4></p> <br> 
@@ -441,37 +441,36 @@ Individual would have access to fund to meet up with their goals through our tar
                     </div>
                     Volunteer With us, or Join us as an Investor, Farmer, or a general merchant. 
 
-                    <div>  
-                        <style>
-                         /* Button Styles */
-                         .rounded-button {
-                             display: inline-block;
-                             padding: 10px 20px;
-                             background-color: lightgreen;
-                             border: 2px solid lightgreen;
-                             border-radius: 10px;
-                             text-align: center;
-                             text-decoration: none;
-                             color: white;
-                             font-weight: bold;
-                             cursor: pointer;
-                             transition: background-color 0.3s ease;
-                         }
-                
-                         /* Button Hover Effect */
-                         .rounded-button:hover {
-                            background-color: darkgreen;
-                         }
-                        </style>
-                
-                        <button class="rounded-button" onclick="redirectToIndex()">Volunteer</button>
-                
+                    <div>
+                        <button onclick="goToVolunteer()" style="
+                          display: inline-block;
+                          padding: 10px 20px;
+                          border-radius: 10px; /* Rounded corners */
+                          text-align: center;
+                          text-decoration: none;
+                          color: white;
+                          font-weight: bold;
+                          cursor: pointer;
+                          transition: background-color 0.3s ease, border-color 0.3s ease; /* Transition for both background and border */
+                        ">Volunteer</button>
+                      
                         <script>
-                           function redirectToIndex() {
-                             window.location.href = "join.html";
-                        }
-                       </script>
-    
+                          function goToVolunteer() {
+                            window.location.href = "join.html";
+                          }
+                        </script>
+                      
+                        <style>
+                          button {
+                            background-color: lightgreen; /* Light green background for the entire button */
+                            border: 2px solid lightgreen; /* Light green border for the entire button */
+                          }
+                      
+                          button:hover {
+                            background-color: darkgreen; /* Dark green on hover, applied to both background and border */
+                            border-color: darkgreen; /* Dark green border on hover */
+                          }
+                        </style>
                     </div>
                 </p> <br>
                 <p><h6>★ Strategic Partnership</h6>
@@ -481,37 +480,36 @@ Individual would have access to fund to meet up with their goals through our tar
                     Creating a sustainable world where everyone has access to healthy food, financial security, basic needs and brighter future is a big vision.  
                     We can't achieve it alone. So, we're constantly seeking partners to invest and collaborate with us to enhance farmers' access to farming inputs and  also contributes to the up skilling of extension staff, thus enhancing the quality of improved and relevant agricultural technologies to farmers.  
                     
-                    <div>  
-                        <style>
-                         /* Button Styles */
-                         .rounded-button {
-                             display: inline-block;
-                             padding: 10px 20px;
-                             background-color: lightgreen;
-                             border: 2px solid lightgreen;
-                             border-radius: 10px;
-                             text-align: center;
-                             text-decoration: none;
-                             color: white;
-                             font-weight: bold;
-                             cursor: pointer;
-                             transition: background-color 0.3s ease;
-                         }
-                
-                         /* Button Hover Effect */
-                         .rounded-button:hover {
-                            background-color: darkgreen;
-                         }
-                        </style>
-                
-                        <button class="rounded-button" onclick="redirectToIndex()">Partner With Us</button>
-                
+                    <div>
+                        <button onclick="goToPartnership()" style="
+                          display: inline-block;
+                          padding: 10px 20px;
+                          border-radius: 10px; /* Rounded corners */
+                          text-align: center;
+                          text-decoration: none;
+                          color: white;
+                          font-weight: bold;
+                          cursor: pointer;
+                          transition: background-color 0.3s ease, border-color 0.3s ease; /* Transition for both background and border */
+                        ">Partner With Us</button>
+                      
                         <script>
-                           function redirectToIndex() {
-                             window.location.href = "partnership.html";
-                        }
-                       </script>
-    
+                          function goToPartnership() {
+                            window.location.href = "partnership.html";
+                          }
+                        </script>
+                      
+                        <style>
+                          button {
+                            background-color: lightgreen; /* Light green background for the entire button */
+                            border: 2px solid lightgreen; /* Light green border for the entire button */
+                          }
+                      
+                          button:hover {
+                            background-color: darkgreen; /* Dark green on hover, applied to both background and border */
+                            border-color: darkgreen; /* Dark green border on hover */
+                          }
+                        </style>
                     </div>
 
                 </p> <br>
@@ -521,6 +519,37 @@ Individual would have access to fund to meet up with their goals through our tar
                     </div>
                     We make available agricultural workshop, to provides a focal point at the farmstead for the repair and maintenance of machines, implements and structures. It also provides a place where tools can be stored in an orderly manner, a store for supplies and spare parts, and a shelter where work can be carried out during inclement weather. 
                     Always <a href="Coming_soon.html">check here</a> to avoid missing our workshop event update
+                    <div>
+                        <button onclick="goToWorkshop()" style="
+                          display: inline-block;
+                          padding: 10px 20px;
+                          border-radius: 10px; /* Rounded corners */
+                          text-align: center;
+                          text-decoration: none;
+                          color: white;
+                          font-weight: bold;
+                          cursor: pointer;
+                          transition: background-color 0.3s ease, border-color 0.3s ease; /* Transition for both background and border */
+                        ">Get Updates</button>
+                      
+                        <script>
+                          function goToWorkshop() {
+                            window.location.href = "workshops.html";
+                          }
+                        </script>
+                      
+                        <style>
+                          button {
+                            background-color: lightgreen; /* Light green background for the entire button */
+                            border: 2px solid lightgreen; /* Light green border for the entire button */
+                          }
+                      
+                          button:hover {
+                            background-color: darkgreen; /* Dark green on hover, applied to both background and border */
+                            border-color: darkgreen; /* Dark green border on hover */
+                          }
+                        </style>
+                    </div>
                     
                 </p> <br>
 <p><h4>• <a href="Coming_soon.html">DONATE</a></h4>
@@ -529,37 +558,36 @@ Individual would have access to fund to meet up with their goals through our tar
         </div>
     Join us to support farmers  seeking a sustainable, inclusive agricultural transformation. Supports the market orientation of small-scale agricultural and food production in agricultural value chains.
 
-    <div>  
-        <style>
-         /* Button Styles */
-         .rounded-button {
-             display: inline-block;
-             padding: 10px 20px;
-             background-color: lightgreen;
-             border: 2px solid lightgreen;
-             border-radius: 10px;
-             text-align: center;
-             text-decoration: none;
-             color: white;
-             font-weight: bold;
-             cursor: pointer;
-             transition: background-color 0.3s ease;
-         }
-
-         /* Button Hover Effect */
-         .rounded-button:hover {
-            background-color: darkgreen;
-         }
-        </style>
-
-        <button class="rounded-button" onclick="redirectToIndex()">Donate</button>
-
+    <div>
+        <button onclick="goToDonate()" style="
+          display: inline-block;
+          padding: 10px 20px;
+          border-radius: 10px; /* Rounded corners */
+          text-align: center;
+          text-decoration: none;
+          color: white;
+          font-weight: bold;
+          cursor: pointer;
+          transition: background-color 0.3s ease, border-color 0.3s ease; /* Transition for both background and border */
+        ">Donate</button>
+      
         <script>
-           function redirectToIndex() {
-             window.location.href = "Coming_soon.html";
-        }
-       </script>
-
+          function goToDonate() {
+            window.location.href = "donate.html";
+          }
+        </script>
+      
+        <style>
+          button {
+            background-color: lightgreen; /* Light green background for the entire button */
+            border: 2px solid lightgreen; /* Light green border for the entire button */
+          }
+      
+          button:hover {
+            background-color: darkgreen; /* Dark green on hover, applied to both background and border */
+            border-color: darkgreen; /* Dark green border on hover */
+          }
+        </style>
     </div>
 </p> <br> 
                  
