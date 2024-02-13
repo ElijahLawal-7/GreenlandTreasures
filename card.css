@@ -1,0 +1,50 @@
+.containers {
+    display: flex;
+    justify-content: space-around; /* Adjust as needed */
+    flex-wrap: wrap;
+}
+
+.card {
+    flex: 1 0 30%; /* Adjust width as needed */
+    margin: 10px;
+    background-color: white;
+    box-shadow: 0px 4px 3px silver;
+    border-radius: 10px;
+    transition: all 0.3s;
+    overflow: hidden; /* Ensures consistent box height */
+}
+
+.card:hover {
+    transform: scale(1.1);
+}
+
+.card img {
+    width: 100%;
+    height: auto;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.card p {
+    padding: 20px 24px;
+    margin: 0;
+}
+
+.rounded-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: lightgreen;
+    border: 2px solid lightgreen;
+    border-radius: 10px;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+/* Button Hover Effect */
+.rounded-button:hover {
+   background-color: darkgreen;
+}
